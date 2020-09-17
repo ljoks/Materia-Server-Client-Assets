@@ -86,6 +86,7 @@ app.controller('SupportUserController', function (Please, $scope, $window, Suppo
 			$scope.additionalData = data
 			_getIconUrls(data.instances_available)
 			data.instances_played = _processPlayed(data.instances_played)
+			console.log(data.instances_played)
 			Please.$apply()
 		})
 	}

@@ -22,8 +22,8 @@ describe('SupportWidgetController', () => {
 
 		require('../common/materia-namespace')
 		require('../common/materia-constants')
-		require('../services/srv-admin')
-		require('./ctrl-admin-widget')
+		require('../services/srv-support')
+		require('./ctrl-support-widget')
 
 		inject((_$controller_, _$q_, _SupportSrv_, _$rootScope_) => {
 			$controller = _$controller_
